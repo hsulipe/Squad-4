@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Alterar Informções da Campanha";
+}
+
+<div>
+    <h1 class="display-4">Alterar Informações da Campanha</h1>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="CampanhaLabel">Nome da Campanha</label>
+                <input type="text" class="form-control" id="campanhaId" placeholder="Nome da campanha">
+            </div>
+            </br>
+            <select class="form-control">
+                <option>Tipo de Premiação</option>
+                <option>Acumulo de pontos</option>
+                <option>Cashback</option>
+            </select>
+        </div>
+        </br>
+
+        <select class="form-control">
+            <option>Fatores de Categorização</option>
+            <option>Fator1</option>
+            <option>Fator2</option>
+        </select>
+        </br>
+        <div class="form-group">
+            <label for="dataInicial">Data inicio de Campanha</label>
+            <input type="date" class="form-control" id="dataInicial" placeholder="Data inicio de Campanha">
+        </div>
+        </br>
+        <div class="form-group">
+            <label for="dataFinal">Data Final de Campanha</label>
+            <input type="date" class="form-control" id="dataFinal" placeholder="Data Final de Campanha">
+        </div>
+        </br>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="limiteQuant">Limite Quantitativo</label>
+                <input type="text" class="form-control" id="limiteQuant">
+            </div>
+            </br>
+            <div class="form-group col-md-2">
+                <label for="inputMecanica">Mecânica da Campanha</label>
+                <input type="text" class="form-control" id="inputMecanica">
+            </div>
+        </div>
+        </br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                Whitelist
+            </label>
+        </div>
+        </br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+            <label class="form-check-label" for="defaultCheck2">
+                Blacklist
+            </label>
+        </div>
+        </br>
+        <div class="form-check">
+            <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label
+            <label class="form-check-label" for="defaultCheck3">Termos de Aceitação<label />
+        </div>
+
+        </br>
+        <button type="submit" class="btn btn-primary">Alterar Campanha</button>
+        <a type="button" class="btn btn-primary" asp-controller="Cadastrados" asp-action="Index">Voltar</a>
+    </form>
+</div>
