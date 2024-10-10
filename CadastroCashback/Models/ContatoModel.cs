@@ -1,4 +1,4 @@
-namespace CadastroCashback.Models
+﻿namespace CadastroCashback.Models
 {
     public class ContatoModel
     {
