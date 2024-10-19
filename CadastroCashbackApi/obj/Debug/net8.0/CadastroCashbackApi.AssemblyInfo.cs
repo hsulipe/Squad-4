@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroCashbackApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52753872318d158263a22a36d3e4eac1970d900a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6881f0698c0c44d65828b2c1a686c3776eb6575c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroCashbackApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroCashbackApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
