@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroCashbackConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78e8ef075fe81cb7d6f043c9cad09a2542a03db1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b6744ac2b016932e78db3a678e9da6bde61d05")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroCashbackConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroCashbackConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,14 +12,14 @@ public class CampanhaDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=.;Database=CampanhaDb;Trusted_Connection=True;");
+        optionsBuilder.UseSqlite("Data Source=./campanha.db;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         // Configure the Product entity
         modelBuilder.Entity<ContatoModel>()
-            .ToTable("Contatos")  // Specify table name
-            .HasKey(p => p.Id); // Specify primary key
+          .ToTable("Contatos")  // Specify table name
+          .HasKey(p => p.Id); // Specify primary key
 
         modelBuilder.Entity<Usuario>()
           .ToTable("Usuarios")
